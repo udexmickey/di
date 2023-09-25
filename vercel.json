@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "": ""
+  },
   "builds": [
     {
       "src": "src/main.js",
@@ -13,7 +16,6 @@
       "methods": [
         "GET",
         "POST",
-        "PATCH",
         "PUT",
         "DELETE"
       ]
